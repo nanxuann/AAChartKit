@@ -8,6 +8,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+
 typedef NS_ENUM(NSInteger,ENUM_SpecialChartVC_chartType) {
     ENUM_SpecialChartVC_chartTypePie=0,
     ENUM_SpecialChartVC_chartTypeBubble,
@@ -16,7 +18,10 @@ typedef NS_ENUM(NSInteger,ENUM_SpecialChartVC_chartType) {
     ENUM_SpecialChartVC_chartTypeFunnel,
     ENUM_SpecialChartVC_chartTypeColumnrange,
 };
-@interface SpecialChartVC : UIViewController
+
+@interface SpecialChartVC : BaseViewController
+
 @property(copy,nonatomic)NSString *receivedChartType;
 @property(nonatomic,assign)NSInteger ENUM_SpecialChartVC_chartType;
+
 @end

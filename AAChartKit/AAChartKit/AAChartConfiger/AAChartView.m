@@ -61,6 +61,10 @@
 #if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_9_0
 ///WKWebView页面加载完成之后调用
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
+    
+    // devZhang 20170610
+    [[NSNotificationCenter defaultCenter] postNotificationName:AAChartNotificationStatusLoadedSuccess object:nil];
+    
     [self drawChart];
 }
 -(void)drawChart{
@@ -76,9 +80,17 @@
 #elif
 ///UIWebView页面加载完成之后调用
 - (void)webViewDidFinishLoad:(UIWebView *)webView {
+    
+    // devZhang 20170610
+    [[NSNotificationCenter defaultCenter] postNotificationName:AAChartNotificationStatusLoadedSuccess object:nil];
+    
     [self drawChart];
 }
 - (void)webView:(UIWebView *)webView didFailLoadWithError:(nullable NSError *)error{
+    
+    // devZhang 20170610
+    [[NSNotificationCenter defaultCenter] postNotificationName:AAChartNotificationStatusLoadedFailed object:nil];
+    
     if (error) {
         NSLog(@"%@",self.json);
         NSLog(@"%@",error);

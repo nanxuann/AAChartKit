@@ -21,6 +21,11 @@
 #define AASelfWebViewDelegate delegate
 #endif
 
+/// 加载状态通知 devZhang 20170610
+static NSString *const AAChartNotificationStatusLoading       = @"AAChartStatusLoading";
+static NSString *const AAChartNotificationStatusLoadedSuccess = @"AAChartStatusLoadedSuccess";
+static NSString *const AAChartNotificationStatusLoadedFailed  = @"AAChartStatusLoadedFailed";
+
 @interface AAChartView : AAWebView<AAWebViewDelegate>
 
 @property(nonatomic,assign)CGFloat contentWidth;//content width of AAChartView

@@ -8,6 +8,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BaseViewController.h"
+
 typedef NS_ENUM(NSInteger,ENUM_secondeViewController_chartType){
     ENUM_secondeViewController_chartTypeColumn =0,
     ENUM_secondeViewController_chartTypeBar,
@@ -20,9 +22,11 @@ typedef NS_ENUM(NSInteger,ENUM_secondeViewController_chartType){
 };
 
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : BaseViewController
+
 @property(nonatomic,assign)NSInteger ENUM_secondeViewController_chartType;
 @property(nonatomic,copy)NSString *receivedChartType;
+
 
 @end
 

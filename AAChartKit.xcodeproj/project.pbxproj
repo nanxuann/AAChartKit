@@ -16,7 +16,6 @@
 		64245AD81EC37495005B8021 /* IMG_1880.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 64245AD71EC37495005B8021 /* IMG_1880.JPG */; };
 		64245ADA1EC4BA44005B8021 /* IMG_1882.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 64245AD91EC4BA44005B8021 /* IMG_1882.JPG */; };
 		64245ADC1EC8388B005B8021 /* AAChartKitDocumentLive.html in Resources */ = {isa = PBXBuildFile; fileRef = 64245ADB1EC8388B005B8021 /* AAChartKitDocumentLive.html */; };
-		6458F4A01E9A76C700770AA9 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6458F49F1E9A76C700770AA9 /* LICENSE */; };
 		645E59551E8403710039A0A1 /* SpecialChartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 645E59541E8403710039A0A1 /* SpecialChartVC.m */; };
 		649025A51ED1A515009EA1A7 /* AAAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 649025A41ED1A515009EA1A7 /* AAAnimation.m */; };
 		7131910C1E80B2F400382A09 /* IMG_1871.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7131910B1E80B2F400382A09 /* IMG_1871.JPG */; };
@@ -68,11 +67,13 @@
 		713F54A61E7B71CB00D506C7 /* AAYAxis.m in Sources */ = {isa = PBXBuildFile; fileRef = 713F54831E7B71CB00D506C7 /* AAYAxis.m */; };
 		7172A3D81E763EA6000D5B99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3D71E763EA6000D5B99 /* main.m */; };
 		7172A3DB1E763EA6000D5B99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3DA1E763EA6000D5B99 /* AppDelegate.m */; };
-		7172A3E11E763EA6000D5B99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172A3DF1E763EA6000D5B99 /* Main.storyboard */; };
 		7172A3E31E763EA6000D5B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7172A3E21E763EA6000D5B99 /* Assets.xcassets */; };
-		7172A3E61E763EA6000D5B99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7172A3E41E763EA6000D5B99 /* LaunchScreen.storyboard */; };
 		7172A3F11E763EA6000D5B99 /* AAChartKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3F01E763EA6000D5B99 /* AAChartKitTests.m */; };
 		7172A3FC1E763EA6000D5B99 /* AAChartKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3FB1E763EA6000D5B99 /* AAChartKitUITests.m */; };
+		DF4AF3AF1EEBEBA70040102A /* UIChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3AE1EEBEBA70040102A /* UIChartView.m */; };
+		DF4AF3B41EEBEDC00040102A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3B11EEBEDC00040102A /* BaseViewController.m */; };
+		DF4AF3B51EEBEDC00040102A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3B31EEBEDC00040102A /* ViewController.m */; };
+		DF4AF3B81EEBEE9C0040102A /* UIChartBarVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3B71EEBEE9C0040102A /* UIChartBarVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -102,7 +103,6 @@
 		64245AD71EC37495005B8021 /* IMG_1880.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1880.JPG; sourceTree = "<group>"; };
 		64245AD91EC4BA44005B8021 /* IMG_1882.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1882.JPG; sourceTree = "<group>"; };
 		64245ADB1EC8388B005B8021 /* AAChartKitDocumentLive.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = AAChartKitDocumentLive.html; sourceTree = "<group>"; };
-		6458F49F1E9A76C700770AA9 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = LICENSE; path = ../ChartsDemo/LICENSE; sourceTree = "<group>"; };
 		645E59531E8403710039A0A1 /* SpecialChartVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialChartVC.h; sourceTree = "<group>"; };
 		645E59541E8403710039A0A1 /* SpecialChartVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialChartVC.m; sourceTree = "<group>"; };
 		649025A31ED1A515009EA1A7 /* AAAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAAnimation.h; sourceTree = "<group>"; };
@@ -190,9 +190,7 @@
 		7172A3D71E763EA6000D5B99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7172A3D91E763EA6000D5B99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7172A3DA1E763EA6000D5B99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7172A3E01E763EA6000D5B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7172A3E21E763EA6000D5B99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7172A3E51E763EA6000D5B99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7172A3E71E763EA6000D5B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7172A3EC1E763EA6000D5B99 /* AAChartKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AAChartKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7172A3F01E763EA6000D5B99 /* AAChartKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKitTests.m; sourceTree = "<group>"; };
@@ -201,6 +199,14 @@
 		7172A3FB1E763EA6000D5B99 /* AAChartKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKitUITests.m; sourceTree = "<group>"; };
 		7172A3FD1E763EA6000D5B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7172A4581E763FDB000D5B99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		DF4AF3AD1EEBEBA70040102A /* UIChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIChartView.h; sourceTree = "<group>"; };
+		DF4AF3AE1EEBEBA70040102A /* UIChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIChartView.m; sourceTree = "<group>"; };
+		DF4AF3B01EEBEDC00040102A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		DF4AF3B11EEBEDC00040102A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		DF4AF3B21EEBEDC00040102A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DF4AF3B31EEBEDC00040102A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DF4AF3B61EEBEE9C0040102A /* UIChartBarVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIChartBarVC.h; sourceTree = "<group>"; };
+		DF4AF3B71EEBEE9C0040102A /* UIChartBarVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIChartBarVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -248,7 +254,6 @@
 				713F54401E7B71CB00D506C7 /* AAChartConfigurator */,
 				713F544A1E7B71CB00D506C7 /* AAJSFiles */,
 				713F54511E7B71CB00D506C7 /* AAOptionsModel */,
-				6458F49F1E9A76C700770AA9 /* LICENSE */,
 			);
 			name = AAChartKitFiles;
 			path = AAChartKit;
@@ -257,6 +262,8 @@
 		713F54401E7B71CB00D506C7 /* AAChartConfigurator */ = {
 			isa = PBXGroup;
 			children = (
+				DF4AF3AD1EEBEBA70040102A /* UIChartView.h */,
+				DF4AF3AE1EEBEBA70040102A /* UIChartView.m */,
 				713F54451E7B71CB00D506C7 /* AAGlobalMacro.h */,
 				713F54411E7B71CB00D506C7 /* AAChartModel.h */,
 				713F54421E7B71CB00D506C7 /* AAChartModel.m */,
@@ -369,12 +376,14 @@
 				7172A4581E763FDB000D5B99 /* PrefixHeader.pch */,
 				7172A3D91E763EA6000D5B99 /* AppDelegate.h */,
 				7172A3DA1E763EA6000D5B99 /* AppDelegate.m */,
-				7172A3DF1E763EA6000D5B99 /* Main.storyboard */,
+				DF4AF3B01EEBEDC00040102A /* BaseViewController.h */,
+				DF4AF3B11EEBEDC00040102A /* BaseViewController.m */,
+				DF4AF3B21EEBEDC00040102A /* ViewController.h */,
+				DF4AF3B31EEBEDC00040102A /* ViewController.m */,
+				DF4AF3B61EEBEE9C0040102A /* UIChartBarVC.h */,
+				DF4AF3B71EEBEE9C0040102A /* UIChartBarVC.m */,
 				713F54341E7B71C000D506C7 /* ChartsDemo */,
 				713F543F1E7B71CB00D506C7 /* AAChartKitFiles */,
-				7172A3E21E763EA6000D5B99 /* Assets.xcassets */,
-				7172A3E41E763EA6000D5B99 /* LaunchScreen.storyboard */,
-				7172A3E71E763EA6000D5B99 /* Info.plist */,
 				7172A3D61E763EA6000D5B99 /* Supporting Files */,
 			);
 			path = AAChartKit;
@@ -383,6 +392,8 @@
 		7172A3D61E763EA6000D5B99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7172A3E21E763EA6000D5B99 /* Assets.xcassets */,
+				7172A3E71E763EA6000D5B99 /* Info.plist */,
 				7172A3D71E763EA6000D5B99 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -556,16 +567,13 @@
 				64245ACC1EC36307005B8021 /* IMG_1875.JPG in Resources */,
 				713F543C1E7B71C000D506C7 /* AAChartKitShow.gif in Resources */,
 				7131911C1E80B33700382A09 /* IMG_1863.JPG in Resources */,
-				7172A3E61E763EA6000D5B99 /* LaunchScreen.storyboard in Resources */,
 				713191181E80B32C00382A09 /* IMG_1865.JPG in Resources */,
 				64245ACE1EC36529005B8021 /* IMG_1876.JPG in Resources */,
 				713191121E80B31800382A09 /* IMG_1868.JPG in Resources */,
 				7172A3E31E763EA6000D5B99 /* Assets.xcassets in Resources */,
 				713F548D1E7B71CB00D506C7 /* AAFunnel.js in Resources */,
-				6458F4A01E9A76C700770AA9 /* LICENSE in Resources */,
 				713191161E80B32800382A09 /* IMG_1866.JPG in Resources */,
 				713F54881E7B71CB00D506C7 /* AAChartView.html in Resources */,
-				7172A3E11E763EA6000D5B99 /* Main.storyboard in Resources */,
 				7131911E1E80B6AE00382A09 /* IMG_1873.JPG in Resources */,
 				713F548C1E7B71CB00D506C7 /* AAJQueryLibrary.js in Resources */,
 			);
@@ -600,6 +608,7 @@
 				713F54841E7B71CB00D506C7 /* AAChartModel.m in Sources */,
 				713F54A01E7B71CB00D506C7 /* AASpline.m in Sources */,
 				713F54931E7B71CB00D506C7 /* AADataLabels.m in Sources */,
+				DF4AF3B51EEBEDC00040102A /* ViewController.m in Sources */,
 				713F543E1E7B71C000D506C7 /* SecondViewController.m in Sources */,
 				649025A51ED1A515009EA1A7 /* AAAnimation.m in Sources */,
 				713F54A11E7B71CB00D506C7 /* AAStyle.m in Sources */,
@@ -607,6 +616,7 @@
 				713F54851E7B71CB00D506C7 /* AAChartView.m in Sources */,
 				713F54A31E7B71CB00D506C7 /* AATitle.m in Sources */,
 				713F549E1E7B71CB00D506C7 /* AASeries.m in Sources */,
+				DF4AF3AF1EEBEBA70040102A /* UIChartView.m in Sources */,
 				7172A3DB1E763EA6000D5B99 /* AppDelegate.m in Sources */,
 				713F54921E7B71CB00D506C7 /* AAColumn.m in Sources */,
 				713F549C1E7B71CB00D506C7 /* AAPlotLinesElement.m in Sources */,
@@ -623,6 +633,8 @@
 				713F549D1E7B71CB00D506C7 /* AAPlotOptions.m in Sources */,
 				713F54A61E7B71CB00D506C7 /* AAYAxis.m in Sources */,
 				713F543D1E7B71C000D506C7 /* FirstViewController.m in Sources */,
+				DF4AF3B41EEBEDC00040102A /* BaseViewController.m in Sources */,
+				DF4AF3B81EEBEE9C0040102A /* UIChartBarVC.m in Sources */,
 				713F54911E7B71CB00D506C7 /* AAChart.m in Sources */,
 				713F54991E7B71CB00D506C7 /* AAOptions.m in Sources */,
 				713F548F1E7B71CB00D506C7 /* AAAreaspline.m in Sources */,
@@ -660,25 +672,6 @@
 			targetProxy = 7172A3F81E763EA6000D5B99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7172A3DF1E763EA6000D5B99 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7172A3E01E763EA6000D5B99 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7172A3E41E763EA6000D5B99 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7172A3E51E763EA6000D5B99 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7172A3FE1E763EA6000D5B99 /* Debug */ = {
