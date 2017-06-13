@@ -70,6 +70,7 @@
 		7172A3E31E763EA6000D5B99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7172A3E21E763EA6000D5B99 /* Assets.xcassets */; };
 		7172A3F11E763EA6000D5B99 /* AAChartKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3F01E763EA6000D5B99 /* AAChartKitTests.m */; };
 		7172A3FC1E763EA6000D5B99 /* AAChartKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7172A3FB1E763EA6000D5B99 /* AAChartKitUITests.m */; };
+		A78F6C421EEF90C70057D561 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A78F6C411EEF90C70057D561 /* Default-568h@2x.png */; };
 		DF4AF3AF1EEBEBA70040102A /* UIChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3AE1EEBEBA70040102A /* UIChartView.m */; };
 		DF4AF3B41EEBEDC00040102A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3B11EEBEDC00040102A /* BaseViewController.m */; };
 		DF4AF3B51EEBEDC00040102A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DF4AF3B31EEBEDC00040102A /* ViewController.m */; };
@@ -199,6 +200,7 @@
 		7172A3FB1E763EA6000D5B99 /* AAChartKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AAChartKitUITests.m; sourceTree = "<group>"; };
 		7172A3FD1E763EA6000D5B99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7172A4581E763FDB000D5B99 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A78F6C411EEF90C70057D561 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		DF4AF3AD1EEBEBA70040102A /* UIChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIChartView.h; sourceTree = "<group>"; };
 		DF4AF3AE1EEBEBA70040102A /* UIChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIChartView.m; sourceTree = "<group>"; };
 		DF4AF3B01EEBEDC00040102A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -392,6 +394,7 @@
 		7172A3D61E763EA6000D5B99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A78F6C411EEF90C70057D561 /* Default-568h@2x.png */,
 				7172A3E21E763EA6000D5B99 /* Assets.xcassets */,
 				7172A3E71E763EA6000D5B99 /* Info.plist */,
 				7172A3D71E763EA6000D5B99 /* main.m */,
@@ -561,6 +564,7 @@
 				64245AD81EC37495005B8021 /* IMG_1880.JPG in Resources */,
 				64245AD61EC37396005B8021 /* IMG_1879.JPG in Resources */,
 				713191141E80B32000382A09 /* IMG_1867.JPG in Resources */,
+				A78F6C421EEF90C70057D561 /* Default-568h@2x.png in Resources */,
 				7131910E1E80B30300382A09 /* IMG_1870.JPG in Resources */,
 				713191101E80B31200382A09 /* IMG_1869.JPG in Resources */,
 				713F54891E7B71CB00D506C7 /* AAHighcharts-3d.js in Resources */,
